@@ -12,12 +12,12 @@ To ensure maximum privacy and avoid API timeouts, this project utilizes **Ollama
 
 ## Tech Stack used
 **Backend:**
-* Python (3.10 / 3.11 recommended)
-* [LangGraph]: Used for conversational routing and building the logic of the AI Avatar
-* [Livekit Python SDK]: WebRTC, Building the lifecycle of the agent
-* [Cartesia]: TTS Modeling
-* [Anam]: Visual Persona Generation
-* [Ollama]: Local LLM Host
+* **Python** (3.10 / 3.11 recommended)
+* **LangGraph**: Used for conversational routing and building the logic of the AI Avatar
+* **Livekit Python SDK**: WebRTC, Building the lifecycle of the agent
+* **Cartesia**: TTS Modeling
+* **Anam**: Visual Persona Generation
+* **Ollama**: Local LLM Host
 
 **Frontend:**
 * Next.js / React
@@ -33,8 +33,8 @@ Before you begin ensure you have the following setup completed
 
 ## Installation
 1. Open up a terminal and run 'ollama pull llama3.2:3b'
-2. Navigate to project root and create a python virtual environment 'python -m venv venv'
-3. Install the pre-requisites from the requirements.txt using 'pip install -r requirements.txt'
+2. Navigate to project root and create a python virtual environment ```python -m venv venv```
+3. Install the pre-requisites from the requirements.txt using ```pip install -r requirements.txt```
 4. Create a .env file and add your API Keys
 ```
 # LiveKit Configuration
@@ -69,9 +69,9 @@ python main.py dev
 python token_generator.py
 ```
 
-7. Then start the frontend server using 'npm run dev'
+7. Then start the frontend server using ```npm run dev```
 
-8. Open up a web browser and navigate to 'http://localhost:3000' and click on start conversation.
+8. Open up a web browser and navigate to ```http://localhost:3000``` and click on start conversation.
 
 ## Some additional notes
 1. Telemetry Bypass: The backend utilizes the official livekit.agents.Agent base class as a dummy variable to pass to bypass internal livekit analytics and prevent program crashes.
