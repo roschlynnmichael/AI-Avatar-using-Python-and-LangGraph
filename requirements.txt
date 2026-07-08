@@ -1,0 +1,19 @@
+# Core Framework
+livekit
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-cartesia
+livekit-plugins-deepgram
+livekit-plugins-silero
+livekit-plugins-anam
+
+# Logic and State
+langgraph
+langchain
+langchain-core
+langchain-openai
+
+# Utilities
+python-dotenv
+uvicorn
+fastapi
